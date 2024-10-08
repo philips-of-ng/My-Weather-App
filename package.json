@@ -1,4 +1,5 @@
 {
+  "homepage": "https://philips-of-ng.github.io/repository-name",
   "name": "weather-app-2",
   "private": true,
   "version": "0.0.0",
@@ -13,7 +14,9 @@
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
